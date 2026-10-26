@@ -1,0 +1,21 @@
+.venv/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+__pycache__/
+
+# Model weights and root-level exports (re-create with Scripts/export_model.py). The app's own copies in
+# "Congressional App Challenge/" ARE tracked so the project builds from a fresh clone.
+*.pt
+/yolo11n.mlpackage/
+/yolo11s.mlpackage/
+
+# Recorded drives: video of real streets plus GPS positions (home address, routes). Private; never commit.
+DriveData/
+*.mov
+frame_times.npy
+
+# Icon drafts and scratch images (kept locally, not part of the app)
+IconDrafts/
+generated_images/
+/x.png
